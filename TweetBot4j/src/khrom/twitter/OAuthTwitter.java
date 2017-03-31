@@ -11,7 +11,6 @@ import twitter4j.auth.AccessToken;
  */
 public class OAuthTwitter {
     /**
-     * _e1337の方
      * にゃんにゃん
      */
     private static final String CONSUMER_KEY = "";
