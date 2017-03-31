@@ -2,6 +2,17 @@
 遊びで作ってるTwitterのBot　　
 IntelliJ(java8)で書かれています。
 
+# 動かし方
+IntellijのプロジェクトですのでIntellijにてArtifactを作成して動かします。  
+コンパイル前に`OAthTwitter.java`にCONSUMER_KEY等のTwitterのTweetに必要なものを書き込んでおく必要があります。  
+コンパイル後はcatword.txtと同一のディレクトリで  
+`java -jar TweetBot.jar`
+で動作させることが出来ます。  
+サーバなどでバックグラウンドでsshを切っても動かしたい場合は  
+`nohup java -jar TweetBot.jar > out.log 2> err.log < /dev/null &`
+と動かせばsshを切断してもバックグランドで動作し続けます。
+
+
 # ライセンス
 このソフトウェア自体はApache License 2.0です。  
 
