@@ -1,5 +1,5 @@
 # SimpleTweetBot
-遊びで作ってるTwitterのBot　　
+遊びで作ってるTwitterのBotです  
 IntelliJ(java8)で書かれています。
 
 # 動かし方
