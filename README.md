@@ -1,5 +1,6 @@
 # SimpleTweetBot
-遊びで作ってるTwitterのBot
+遊びで作ってるTwitterのBot　　
+IntelliJ(java8)で書かれています。
 
 # ライセンス
 このソフトウェア自体はApache License 2.0です。  

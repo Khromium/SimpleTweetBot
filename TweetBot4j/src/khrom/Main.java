@@ -12,9 +12,6 @@ import twitter4j.TwitterStreamFactory;
 public class Main {
     public static void main(String[] args) throws TwitterException {
         OAuthTwitter.authorizeTwitter();
-        TwitterStream twitterStream = TwitterStreamFactory.getSingleton();
-        twitterStream.addListener(new TwitterTL());
-        twitterStream.user();//自分のTLのリプ監視
 
         MonitoringReply monitoringReply = new MonitoringReply();
         monitoringReply.start();
